@@ -1,0 +1,45 @@
+.resume-section {
+  padding: 115px 0;
+  background: var(--cream);
+  border-top: 1px solid var(--line);
+}
+
+.resume-inner {
+  display: grid;
+  grid-template-columns: 1fr 1.16fr;
+  gap: 75px;
+}
+
+.resume-actions {
+  align-self: end;
+  padding-bottom: 5px;
+}
+
+.resume-actions > p {
+  max-width: 520px;
+  margin: 0 0 31px;
+  color: var(--soft-ink);
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.resume-buttons { display: flex; gap: 20px; align-items: center; }
+
+.resume-actions small {
+  display: block;
+  margin-top: 25px;
+  color: #77777d;
+  font: 9px var(--mono);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+  .resume-section { padding: 84px 0; }
+  .resume-inner { grid-template-columns: 1fr; gap: 35px; }
+  .resume-actions > p { font-size: 15px; }
+}
+
+@media (max-width: 420px) {
+  .resume-buttons { flex-direction: column; align-items: flex-start; gap: 18px; }
+}

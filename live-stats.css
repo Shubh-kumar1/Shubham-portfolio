@@ -1,0 +1,37 @@
+.live-status {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 18px 0 0;
+  color: #77777d;
+  font: 9px var(--mono);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.live-status i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #53c876;
+  box-shadow: 0 0 0 3px rgba(83, 200, 118, .13);
+}
+
+.project-link {
+  display: inline-flex;
+  gap: 17px;
+  align-items: center;
+  margin-top: 23px;
+  padding-bottom: 5px;
+  color: var(--ink);
+  border-bottom: 1px solid currentColor;
+  font: 10px var(--mono);
+  letter-spacing: .1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: gap .2s ease;
+}
+
+.project-link:hover { gap: 23px; }
+
+.project-link span { font-size: 15px; }

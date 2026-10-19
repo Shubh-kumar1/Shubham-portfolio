@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shubham Kumar — Backend Engineer portfolio." />
+    <title>Shubham Kumar — Backend Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="live-stats.css" />
+    <link rel="stylesheet" href="resume.css" />
+    <link rel="stylesheet" href="owner-tools.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="nav wrap">
+      <a class="brand" href="#top" aria-label="Shubham Kumar home">SK<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme"><span>◐</span><b>Theme</b></button>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap section">
+        <div class="hero-orb orb-one" aria-hidden="true"></div>
+        <div class="hero-orb orb-two" aria-hidden="true"></div>
+        <div class="profile-photo" id="profile-photo" aria-hidden="true"><img id="profile-image" alt="Shubham Kumar" /></div>
+        <div class="availability"><i></i> Available for opportunities</div>
+        <p class="eyebrow">Hello, I’m</p>
+        <h1>Shubham<br /><em>Kumar.</em></h1>
+        <div class="hero-bottom">
+          <p class="hero-copy">Backend engineer focused on turning complex problems into thoughtful, scalable systems — from real-time platforms to intelligent data pipelines.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Explore projects <span>↘</span></a>
+            <a class="button text-button" href="#contact">Let’s talk <span>↗</span></a>
+          </div>
+        </div>
+        <div class="signal-line" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+        <a class="scroll-prompt" href="#about">Scroll to discover <span>↓</span></a>
+      </section>
+
+      <section id="about" class="about wrap section reveal">
+        <div class="section-intro"><p class="eyebrow">01 / About me</p><h2>Engineering with<br /><em>intention.</em></h2></div>
+        <div class="about-content">
+          <p class="lead">I build reliable backend systems with an eye for the details that make software feel effortless. My work lives at the intersection of clean architecture, practical performance, and a genuine curiosity for how things work.</p>
+          <p class="body-copy">My core focus is scalable Java and Python applications, system architecture, and data structures &amp; algorithms. I enjoy transforming ideas into APIs, event-driven flows, and products that stay dependable as they grow.</p>
+          <div class="quick-facts" aria-live="polite">
+            <div><strong id="leetcode-solved">316<span>+</span></strong><small>LeetCode solved</small></div>
+            <div><strong id="github-commits">467<span>+</span></strong><small>GitHub contributions</small></div>
+            <div><strong>2027</strong><small>Graduating</small></div>
+          </div>
+          <p class="live-status" id="live-status"><i></i> Checking latest coding stats</p>
+        </div>
+        <div class="architecture-card" aria-label="Core tools and focus areas">
+          <div class="architecture-top"><span>CORE_SYSTEMS.JSON</span><span>ONLINE</span></div>
+          <div class="node node-main">JAVA<br /><small>services</small></div><div class="node node-a">REDIS</div><div class="node node-b">POSTGRES</div><div class="node node-c">FASTAPI</div><div class="node node-d">DOCKER</div>
+          <svg viewBox="0 0 580 230" aria-hidden="true"><path d="M286 111 L138 55 M286 111 L434 55 M286 111 L145 176 M286 111 L439 176" /></svg>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section">
+        <div class="wrap">
+          <div class="section-header reveal"><div><p class="eyebrow">02 / Selected work</p><h2>Things I’ve<br /><em>built.</em></h2></div><p>Three projects where I led with systems thinking, useful interactions, and the craft of shipping.</p></div>
+          <div class="project-list">
+            <article class="project-card cricket reveal">
+              <div class="project-index">01</div>
+              <div class="project-copy"><p class="project-type">Full-stack platform</p><h3>Cricket<br />Connect</h3><p>A platform that brings cricket enthusiasts, local teams, and professional academies together — with player registration, match discovery, bookings, and coach approval workflows.</p><ul><li>Java</li><li>FastAPI</li><li>Redis</li><li>Full stack</li></ul><a class="project-link" href="https://cricket-connect-fastapi.vercel.app/" target="_blank" rel="noreferrer">Visit live project <span>↗</span></a></div>
+              <div class="project-visual cricket-visual"><div class="score-card"><span>LIVE MATCH</span><b>148<span>/4</span></b><small>16.3 OVERS</small></div><div class="field"></div><div class="ball"></div></div>
+            </article>
+            <article class="project-card blue reveal">
+              <div class="project-index">02</div>
+              <div class="project-copy"><p class="project-type">AI hazard intelligence</p><h3>Blue<br />Signal</h3><p>An AI-powered flood response and hazard monitoring system. I led backend development, designing a scalable pipeline for real-time, multimodal environmental data.</p><ul><li>Python</li><li>AI / ML</li><li>Docker</li><li>Architecture</li></ul><a class="project-link" href="https://blue-signal.vercel.app/" target="_blank" rel="noreferrer">Visit live project <span>↗</span></a></div>
+              <div class="project-visual blue-visual"><div class="wave wave-one"></div><div class="wave wave-two"></div><div class="radar"><i></i><i></i><i></i><b></b></div><span class="alert">● MONITORING</span></div>
+            </article>
+            <article class="project-card quake reveal">
+              <div class="project-index">03</div>
+              <div class="project-copy"><p class="project-type">Live data visualization</p><h3>Earthquake<br />Mapping</h3><p>An interactive map that processes live USGS RSS feeds, turning seismic data into clear visual signals through robust object-oriented parsing and visualization.</p><ul><li>Java</li><li>OOP</li><li>Live feeds</li><li>Data parsing</li></ul></div>
+              <div class="project-visual quake-visual"><div class="map-grid"></div><div class="fault"></div><div class="quake-point p1"></div><div class="quake-point p2"></div><div class="quake-point p3"></div><div class="map-label">USGS / LIVE FEED</div></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="experience wrap section reveal">
+        <div class="section-header"><div><p class="eyebrow">03 / Experience</p><h2>Learning by<br /><em>doing.</em></h2></div><p>Practical exposure across machine learning and cloud infrastructure — always driven by a desire to understand the system underneath.</p></div>
+        <div class="timeline">
+          <article><div class="time">Jan 2025 — Mar 2025</div><div><p class="role-label">Virtual internship</p><h3>AI-ML Virtual Intern</h3><p>Explored machine learning for predictive analysis using TensorFlow and Python, working with real-world datasets and model optimization.</p></div><ul class="pills"><li>TensorFlow</li><li>Python</li><li>ML</li></ul></article>
+          <article><div class="time">Jan 2026 — Mar 2026</div><div><p class="role-label">Virtual internship</p><h3>AWS Cloud Intern</h3><p>Worked with EC2, S3, and RDS while architecting secure cloud solutions and learning to balance reliability, IAM, and cost.</p></div><ul class="pills"><li>EC2</li><li>S3</li><li>RDS</li><li>IAM</li></ul></article>
+        </div>
+      </section>
+
+      <section class="skills wrap section reveal">
+        <div class="skills-head"><p class="eyebrow">04 / Toolkit</p><h2>A practical<br /><em>stack.</em></h2></div>
+        <div class="skill-groups"><div><span>Languages</span><p>Java · Python · SQL · JavaScript</p></div><div><span>Backend</span><p>FastAPI · Flask · WebSockets · REST APIs</p></div><div><span>Data &amp; infra</span><p>PostgreSQL · Redis · Docker · AWS</p></div><div><span>Foundations</span><p>DSA · OOP · System Design · DBMS</p></div></div>
+      </section>
+
+      <section class="credentials wrap section reveal">
+        <div><p class="eyebrow">05 / Credentials</p><h2>Always in<br /><em>motion.</em></h2></div>
+        <div class="credential-list"><p><span>01</span> Introduction to Cybersecurity <b>Cisco Networking Academy · 2025</b></p><p><span>02</span> Learn Coding with Java from Scratch <b>Udemy · 2025</b></p><p><span>03</span> Git, GitLab, GitHub Fundamentals <b>Udemy · 2025</b></p><p><span>04</span> Introduction to MongoDB <b>MongoDB University · 2025</b></p><p><span>05</span> Object Oriented Programming in Java <b>Coursera · UC San Diego · 2025</b></p></div>
+      </section>
+
+      <section class="education wrap section reveal"><p class="eyebrow">06 / Education</p><div><span class="cap">B.Tech</span><h2>Computer Science<br /><em>(AI &amp; ML)</em></h2></div><div class="education-detail"><p>G. L. Bajaj Institute of Technology and Management</p><p>2023 — 2027 · Greater Noida, UP</p><strong>CGPA 7.6 <span>/ 10.0</span></strong></div></section>
+
+      <section id="resume" class="resume-section">
+        <div class="wrap resume-inner reveal">
+          <div><p class="eyebrow">07 / Resume</p><h2>Everything in<br /><em>one place.</em></h2></div>
+          <div class="resume-actions"><p>For recruiters and collaborators: a concise overview of my backend engineering work, projects, technical skills, internships, and education.</p><div class="resume-buttons"><a class="button primary" href="output/pdf/Shubham_Kumar_Resume.pdf" target="_blank" rel="noreferrer">View resume <span>↗</span></a><a class="button text-button" href="output/pdf/Shubham_Kumar_Resume.pdf" download="Shubham_Kumar_Resume.pdf">Download PDF <span>↓</span></a></div><small>Updated October 2026 · PDF · One page</small></div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="wrap contact-inner reveal"><p class="eyebrow">08 / Get in touch</p><h2>Let’s create<br />something <em>useful.</em></h2><p class="contact-copy">Open to exciting opportunities, ambitious collaborations, and backend problems worth solving.</p><a class="contact-email" href="mailto:shubhamraj9493@gmail.com">shubhamraj9493@gmail.com <span>↗</span></a><div class="socials"><a href="https://www.linkedin.com/in/shubham-kumar-87bb8b357/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/Shubh-kumar1" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://leetcode.com/u/Shubh_kumar01/" target="_blank" rel="noreferrer">LeetCode ↗</a></div></div>
+      </section>
+    </main>
+    <aside class="owner-tools" id="owner-tools" hidden aria-label="Portfolio owner tools">
+      <div class="owner-tools-head"><span>Owner tools</span><button type="button" id="owner-tools-close" aria-label="Close owner tools">×</button></div>
+        <p>Update your browser preview of the recruiter-facing assets. The default circle design remains when no photo is set.</p>
+      <label for="profile-upload">Profile photo <small>JPG, PNG, or WebP</small></label>
+      <input id="profile-upload" type="file" accept="image/jpeg,image/png,image/webp" />
+      <label for="resume-upload">Resume PDF <small>Replaces the current recruiter download</small></label>
+      <input id="resume-upload" type="file" accept="application/pdf" />
+      <div class="owner-actions"><button type="button" class="owner-save" id="owner-save">Save updates</button><button type="button" class="owner-reset" id="owner-reset">Reset assets</button></div>
+      <output id="owner-status" aria-live="polite">Choose files, then save.</output>
+    </aside>
+    <footer class="wrap"><span>© 2026 Shubham Kumar</span><span>Designed with care · Built for the web</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
