@@ -15,4 +15,4 @@
 .owner-save { background: var(--lime); color: #1b1c20; }
 .owner-reset { color: #f1f0eb; background: transparent; border: 1px solid #575c55 !important; }
 .owner-tools output { display: block; min-height: 14px; margin-top: 13px; color: #aeb5aa; font: 9px var(--mono); letter-spacing: .04em; }
-@media (max-width: 800px) { .profile-photo { width: 240px; height: 240px; right: -28px; top: 80px; opacity: .25; } .hero.has-photo .profile-photo { opacity: .35; } }
+@media (max-width: 800px) { .profile-photo { display: none; } .hero.has-photo .hero-orb { opacity: 1; } }
